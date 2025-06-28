@@ -82,11 +82,8 @@ For each model—both pre‑ and post‑tuning—the following metrics are repor
 * **Top Performer:** Random Forest (tuned) achieved **89.0% accuracy**, **0.48 precision**, **0.52 recall**, and **0.50 F1‑score** on the churn class.
 * **Key Insights:**
 
-  * Hyperparameter optimization consistently improved model performance by \~2–3%.
+  * Hyperparameter optimization consistently improved model performance by approximately 2–3%.
   * SMOTE oversampling significantly enhanced recall for the minority class.
-  * Outlier removal and scaling contributed to model stability and convergence.
-* **Future Work:**
-
-  * Engineer interaction features (e.g., Age × Balance).
-  * Evaluate gradient‑boosting algorithms (XGBoost, LightGBM).
-  * Incorporate cost‑sensitive learning to reflect business impacts of misclassification.
+  * Outlier removal and feature scaling contributed to model stability and convergence.
+* **Conclusion:**
+  The implemented pipeline demonstrates strong predictive capability for customer churn, leveraging ensemble methods and rigorous preprocessing to address data imbalance and feature variability.
