@@ -63,7 +63,7 @@ For each model—both pre‑ and post‑tuning—the following metrics are repor
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/your-org/customer-churn-prediction.git
-   cd customer-churn-prediction
+   cd Bank Customer-Churn-Prediction
 
 2. **Install dependencies**
 
@@ -73,7 +73,7 @@ For each model—both pre‑ and post‑tuning—the following metrics are repor
 3. **Run the analysis notebook**
 
    ```bash
-   jupyter notebook Churn_Project.ipynb
+   jupyter notebook BankCustomerChurn.ipynb
    ```
 4. **Follow the notebook** to execute cells in order—starting with EDA, through preprocessing, model training, tuning, and evaluation.
 
